@@ -58,7 +58,7 @@ export default NepaliTimeComponent;
 ```
 ## Options
 
-The `nepTime` function accepts an options object to customize the appearance and format of the time display.
+The `NepTime` function accepts an options object to customize the appearance and format of the time display.
 
 | Option      | Type   | Default   | Description                                                      |
 |-------------|--------|-----------|------------------------------------------------------------------|
