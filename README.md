@@ -7,6 +7,7 @@ nptime is a lightweight npm module for displaying the current time in Nepali num
 npm install nptime
 
 ### Example HTML Usage
+```
 
 ```html
 <!DOCTYPE html>
@@ -30,4 +31,6 @@ npm install nptime
     </script>
 </body>
 </html>
+
+```
 
