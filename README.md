@@ -1,6 +1,5 @@
 # nepTime
-An npm module for nepali time which show your current time in nepali format (font)
-nepTime is a lightweight npm module for displaying the current time in Nepali numerals. You can customize the text color, background color, and clock format (12-hour or 24-hour) to fit seamlessly with your web project’s design.
+nepTime is a lightweight npm module for displaying the current time in Nepali numerals.
 
 #  Installation
 ```bash
@@ -20,9 +19,9 @@ npm install nepTime
     <div id="nepali-time"></div>
 
     <script type="module">
-        import { nepTime } from 'nepTime';
+        import  NepTime  from 'neptime';
 
-        nepTime({
+        NepTime({
             color: 'black',
             bgColor: 'white',
             clcFormat: '24'
@@ -41,11 +40,11 @@ To use `nepTime` in a React project:
 
 ```jsx
 import React, { useEffect } from 'react';
-import { nepTime } from 'nepTime';
+import  NepTime  from 'neptime';
 
 const NepaliTimeComponent = () => {
     useEffect(() => {
-        nepTime({
+        NepTime({
             color: 'black',
             bgColor: 'white',
             clcFormat: '24'
