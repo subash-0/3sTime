@@ -6,9 +6,8 @@ nptime is a lightweight npm module for displaying the current time in Nepali num
 ```bash
 npm install nptime
 
-### Example HTML Usage
 ```
-
+## Example HTML Usage
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -33,4 +32,28 @@ npm install nptime
 </html>
 
 ```
+### React Usage
 
+To use `nptime` in a React project:
+
+1. **Import `npTime`** and call it inside a `useEffect` hook to ensure it runs after the component mounts.
+2. **Add a div with the ID `nepali-time`** where you want the time to display.
+
+```jsx
+import React, { useEffect } from 'react';
+import { npTime } from 'nptime';
+
+const NepaliTimeComponent = () => {
+    useEffect(() => {
+        npTime({
+            color: 'black',
+            bgColor: 'white',
+            clcFormat: '24'
+        });
+    }, []);
+
+    return <div id="nepali-time"></div>;
+};
+
+export default NepaliTimeComponent;
+```
