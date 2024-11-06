@@ -1,0 +1,28 @@
+{
+  "name": "nptime",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subash-0/3sTime.git"
+  },
+  "keywords": [
+    "npmTime",
+    "npm",
+    "nepaliTime",
+    "3sTime",
+    "NepaliTimeConverter",
+    "CovertToNepaliTime",
+    "convertToNepali"
+  ],
+  "author": "Subash Kumar Yadav",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/subash-0/3sTime/issues"
+  },
+  "homepage": "https://github.com/subash-0/3sTime#readme",
+  "description": "An npm package to convert English time to Nepali time with accurate time conversion."
+}
