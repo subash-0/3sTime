@@ -57,3 +57,12 @@ const NepaliTimeComponent = () => {
 
 export default NepaliTimeComponent;
 ```
+## Options
+
+The `npTime` function accepts an options object to customize the appearance and format of the time display.
+
+| Option      | Type   | Default   | Description                                                      |
+|-------------|--------|-----------|------------------------------------------------------------------|
+| `color`     | string | `'black'` | Sets the text color of the displayed time.                       |
+| `bgColor`   | string | `'white'` | Sets the background color of the displayed time.                 |
+| `clcFormat` | string | `'24'`    | Sets clock format: `'24'` for 24-hour, `'12'` for 12-hour.      |

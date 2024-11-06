@@ -4,7 +4,7 @@ function toNepaliNumber(num) {
     return num.toString().split('').map(digit => arrayOfNeplai[parseInt(digit)]).join('');
 }
 
- function npTime({ color = 'black', bgColor = 'white',clcFormat="24" } = {}) {
+ function nepTime({ color = 'black', bgColor = 'white',clcFormat="24" } = {}) {
     const element = document.getElementById('nepali-time');
     if (!element) {
         console.error('Element not found');
@@ -27,4 +27,4 @@ function toNepaliNumber(num) {
     setInterval(convertInOneSecond, 1000);
 }
 
-module.exports = { npTime };
+module.exports = { nepTime };
