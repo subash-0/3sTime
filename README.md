@@ -1,4 +1,4 @@
-# nepTime
+# neptime
 nepTime is a lightweight npm module for displaying the current time in Nepali numerals.
 
 #  Installation
