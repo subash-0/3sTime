@@ -1,10 +1,10 @@
-let arrayOfNeplai = ['0', '१', '२', '३', '४', '५', '६', '७', '८', '९'];
+let arrayOfNeplai = ['o', '१', '२', '३', '४', '५', '६', '७', '८', '९'];
 
 function toNepaliNumber(num) {
     return num.toString().split('').map(digit => arrayOfNeplai[parseInt(digit)]).join('');
 }
 function checkDigit(num) {
-    return num.toString().length > 1 ? num : '0' + num;
+    return num.toString().length > 1 ? num : 'o' + num;
 }
 
  function NepTime({ color = 'black', bgColor = 'white',clcFormat="24" } = {}) {
@@ -37,3 +37,4 @@ function checkDigit(num) {
 }
 
 export default NepTime;
+
