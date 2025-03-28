@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepali Time Example</title>
+</head>
+<body>
+    <div id="nepali-time"></div>
+
+    <script type="module">
+        import NepTime from './index.js'; // Adjust the path accordingly
+
+        // Call the NepTime function with default options
+        NepTime({
+            color: 'black',
+            bgColor: 'white',
+            format: 'hh-mm-ss'  // Format with Nepali numerals
+        });
+    </script>
+</body>
+</html>
