@@ -1,4 +1,4 @@
-let arrayOfNepali = ['o', '१', '२', '३', '४', '५', '६', '७', '८', '९'];
+let arrayOfNepali = ['०', '१', '२', '३', '४', '५', '६', '७', '८', '९'];
 
 function toNepaliNumber(num) {
     return num.toString().split('').map(digit => arrayOfNepali[parseInt(digit)]).join('');
